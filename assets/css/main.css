@@ -1,0 +1,87 @@
+.navbar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 25px 0px;
+    color: rgb(0, 0, 0);
+    position: sticky;
+    top:0;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.categoriesList{
+    list-style: none;
+    display: flex;
+}
+
+.categoriesList li {
+    margin: 0 15px;
+}
+
+.categoriesList a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: all 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+}
+.categoriesList a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+   
+    transition: 0.3s;
+}
+
+
+
+.header{
+display: flex;
+    color: var(--mainColor);
+    font-family: 'Courier New', Courier, monospace;
+    height: 1200px;
+}
+
+.header h1{
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: transform 0.1s ease-out;
+}
+
+
+
+.navbar-scroll{
+    background-color: var(--mainColor);
+    color: white;
+}
+
+.categoriesList .navbar-scroll-a{
+    color: rgb(255, 255, 255) ;
+    
+   
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    gap: 10px;
+
+}
+
+.pagination a{
+    color: black;
+  
+}
+
+.disabled{
+    color: rgb(255, 4, 4);
+    cursor: not-allowed;
+    text-decoration: none;
+}
